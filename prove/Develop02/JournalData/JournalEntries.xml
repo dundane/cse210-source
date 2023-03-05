@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entry>
+    <Date>3/4/2023</Date>
+    <JournalEntry>This is a testtest this.</JournalEntry>
+  </Entry>
+  <Entry>
+    <Date>3/4/2023</Date>
+    <Prompt>Write about a book, movie, or TV show that had a significant impact on you and why.</Prompt>
+    <JournalEntry>This is about a book that I like.</JournalEntry>
+  </Entry>
+</ArrayOfEntry>

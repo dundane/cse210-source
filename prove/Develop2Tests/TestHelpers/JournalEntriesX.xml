@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entry>
+    <Date>3/4/2023</Date>
+    <Prompt>prompt</Prompt>
+    <JournalEntry>Journal Entry</JournalEntry>
+  </Entry>
+  <Entry>
+    <Date>3/4/2023Two</Date>
+    <Prompt>prompt Two</Prompt>
+    <JournalEntry>Journal Entry Two</JournalEntry>
+  </Entry>
+</ArrayOfEntry>
