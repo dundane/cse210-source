@@ -9,6 +9,8 @@ class Program {
   private static Prompts prompts { get; set; }
   private static String activePrompt { get; set; }
   private static Entry activeEntry { get; set; }
+
+
   static void Main(string[] args) {
     activeJournal = new Journal();
     prompts = new Prompts();
