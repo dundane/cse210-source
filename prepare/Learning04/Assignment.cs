@@ -10,7 +10,7 @@ namespace Learning04 {
     protected string studentName;
     private string topic;
 
-    public Assigment(string studentName, string topic) {
+    public Assignment(string studentName, string topic) {
       this.studentName = studentName;
       this.topic = topic;
     }

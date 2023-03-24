@@ -42,6 +42,8 @@ namespace Develop03 {
 
     public Reference Reference { get { return reference; } set { reference = value; } }
 
+
+
     public string FormatNewTextForDisplay() {
       StringBuilder stringBuilder = new StringBuilder();
       for (int wordIndex = 0; wordIndex < Words.Count; wordIndex++) {
@@ -55,7 +57,8 @@ namespace Develop03 {
     }
 
     private void ParseOriginalText() {
-      Words = new List<WordWrapper>();
+      Words = new List<WordWrapper>();4
+
       List<String> wordsFromText = originalText.Split(" ", StringSplitOptions.RemoveEmptyEntries).ToList<String>();
       for (int wordIndex = 0; wordIndex < wordsFromText.Count; wordIndex++) {
         Words.Add(new WordWrapper(wordIndex, wordsFromText[wordIndex], false));
