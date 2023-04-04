@@ -53,5 +53,15 @@ namespace Develop5Tests {
       Assert.AreEqual(1, sut.CompletionCount);
     }
 
+    [TestMethod]
+    public void GoalKnowsHowToCalculateItsValue() {
+      sut.PointValue = 10;
+      sut.Complete();
+      int pointValue = sut.CalculatePoints();
+
+      Assert.AreEqual(10, pointValue);
+    }
+
+
   }
 }

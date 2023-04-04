@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGoal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Goal>
+    <PointValue>10</PointValue>
+    <Name>My Simple Goal</Name>
+    <Description>This is my Simple Goal</Description>
+    <LastCompleteDate>2023-04-03T22:27:09.9987135-06:00</LastCompleteDate>
+    <CompletionCount>1</CompletionCount>
+  </Goal>
+  <Goal xsi:type="EternalGoal">
+    <PointValue>20</PointValue>
+    <Name>My Eternal Goal</Name>
+    <Description>This is my Eternal Goal.</Description>
+    <LastCompleteDate>2023-04-03T22:27:53.2931162-06:00</LastCompleteDate>
+    <CompletionCount>2</CompletionCount>
+  </Goal>
+  <Goal xsi:type="ChecklistGoal">
+    <PointValue>5</PointValue>
+    <Name>My Checklist Goal</Name>
+    <Description>This is my Checklist Goal</Description>
+    <LastCompleteDate>2023-04-03T22:28:40.3826586-06:00</LastCompleteDate>
+    <CompletionCount>4</CompletionCount>
+    <BonusCount>4</BonusCount>
+    <BonusAward>50</BonusAward>
+  </Goal>
+  <Goal>
+    <PointValue>30</PointValue>
+    <Name>Do Stuff</Name>
+    <Description>Do stuff with the things.</Description>
+    <LastCompleteDate>2023-04-03T22:33:15.6001187-06:00</LastCompleteDate>
+    <CompletionCount>1</CompletionCount>
+  </Goal>
+</ArrayOfGoal>

@@ -24,6 +24,9 @@
     <None Update="TestHelperFiles\allgoals.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="TestHelperFiles\testGoals.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -16,6 +16,17 @@ namespace Develop5Tests {
       Assert.IsInstanceOfType(sut, typeof(Goal));
     }
 
+    [TestMethod]
+    public void EternalGoalGrowsOnCompletionCount() {
+      sut.Complete();
+      Assert.AreEqual(5, sut.CalculatePoints());
+      sut.Complete();
+      Assert.AreEqual(10, sut.CalculatePoints());
+      sut.Complete();
+      Assert.AreEqual(15, sut.CalculatePoints());
+
+    }
+
 
   }
 }

@@ -9,8 +9,7 @@ namespace Develop5Tests {
     [TestInitialize]
     public void Initialize() {
       FileIO fileIO = new FileIO();
-      Scoreboard scoreboard = new Scoreboard(fileIO, "completeGoals.xml");
-      sut = new GoalManager(fileIO, scoreboard);
+      sut = new GoalManager(fileIO);
     }
 
     [TestMethod]
@@ -65,16 +64,6 @@ namespace Develop5Tests {
       sut.LoadGoals("TestHelperFiles\\testGoals.xml");
 
       Assert.IsTrue(sut.Goals.Count == 3);
-
-    }
-
-    [TestMethod]
-    public void SavesScoreboardResults() {
-
-      sut.SaveGoals("goalManagerGoals.xml");
-
-      Assert.IsTrue(File.Exists("goalManagerGoals.xml"));
-      Assert.IsTrue(File.Exists("completeGoals.xml"));
 
     }
 

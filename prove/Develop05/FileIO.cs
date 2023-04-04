@@ -19,6 +19,10 @@ namespace Develop05 {
     }
 
     public void SaveGoalList(string fileName, List<Goal> goals) {
+      if (!File.Exists(fileName)) {
+        File.Create(fileName);
+      }
+
       using (TextWriter writer = new StreamWriter(fileName)) {
         XmlSerializer serializer = new XmlSerializer(typeof(List<Goal>));
         serializer.Serialize(writer, goals);

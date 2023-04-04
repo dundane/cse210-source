@@ -31,10 +31,31 @@ namespace Develop05 {
       }
     }
 
-    public override bool SingleUse { get { return false; } }
-
     public override bool Complete() {
       return base.Complete();
+    }
+
+    public override bool IsComplete() {
+      if (CompletionCount >= BonusCount) {
+        return true;
+      }
+      return false;
+    }
+
+    public override int CalculatePoints() {
+      int pointTotal = 0;
+      if (CompletionCount > 1) {
+        pointTotal += PointValue * CompletionCount;
+      }
+      if (CompletionCount >= BonusCount) {
+        pointTotal += BonusAward;
+      }
+      return pointTotal;
+    }
+
+    public override string FormatForDisplay() {
+      string completeDate = (CompletionCount > 0) ? $"Last Recorded {LastCompleteDate.ToShortDateString()}" : "";
+      return base.FormatForDisplay() + $"({CompletionCount}/{BonusCount})" + completeDate;
     }
 
   }

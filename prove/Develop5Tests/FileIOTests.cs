@@ -14,8 +14,7 @@ namespace Develop5Tests {
     [TestMethod]
     public void AbleToStoreAListOfGoals() {
       FileIO fileIO = new FileIO();
-      Scoreboard scoreboard = new Scoreboard(fileIO);
-      GoalManager goalManager = new GoalManager(fileIO, scoreboard);
+      GoalManager goalManager = new GoalManager(fileIO);
 
       goalManager.Goals.Add(new Goal("Goal One", "Description One", 1));
       goalManager.Goals.Add(new Goal("Goal Two", "Description Two", 2));
@@ -40,8 +39,7 @@ namespace Develop5Tests {
     [TestMethod]
     public void AbleToStoreAListOfAllGoalTypes() {
       FileIO fileIO = new FileIO();
-      Scoreboard scoreboard= new Scoreboard(fileIO);
-      GoalManager goalManager = new GoalManager(fileIO, scoreboard);
+      GoalManager goalManager = new GoalManager(fileIO);
 
       goalManager.Goals.Add(new Goal("Goal One", "Description One", 1));
       goalManager.Goals.Add(new EternalGoal("Goal Two", "Description Two", 2));

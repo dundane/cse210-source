@@ -61,10 +61,27 @@ namespace Develop05 {
     public virtual bool Complete() {
       LastCompleteDate = DateTime.Now;
       CompletionCount += 1;
-      return true;
+      return IsComplete();
     }
 
-    public virtual bool SingleUse { get { return true; } }
+    public virtual bool IsComplete() {
+      if (completionCount > 0) {
+        return true;
+      }
+      return false;
+    }
+
+    public virtual int CalculatePoints() {
+      if (completionCount > 0) {
+        return pointValue;
+      }
+      return 0;
+    }
+
+    public virtual string FormatForDisplay() {
+      string completeDate = (CompletionCount > 0) ? $"Completed {LastCompleteDate}" : "";
+      return $"{this.Name} " + completeDate ;
+    }
 
   }
 }
