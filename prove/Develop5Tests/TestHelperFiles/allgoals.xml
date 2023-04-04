@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGoal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Goal>
+    <PointValue>1</PointValue>
+    <Name>Goal One</Name>
+    <Description>Description One</Description>
+    <LastCompleteDate>0001-01-01T00:00:00</LastCompleteDate>
+    <CompletionCount>0</CompletionCount>
+  </Goal>
+  <Goal xsi:type="EternalGoal">
+    <PointValue>2</PointValue>
+    <Name>Goal Two</Name>
+    <Description>Description Two</Description>
+    <LastCompleteDate>0001-01-01T00:00:00</LastCompleteDate>
+    <CompletionCount>0</CompletionCount>
+  </Goal>
+  <Goal xsi:type="ChecklistGoal">
+    <PointValue>3</PointValue>
+    <Name>Goal Three</Name>
+    <Description>Description Three</Description>
+    <LastCompleteDate>0001-01-01T00:00:00</LastCompleteDate>
+    <CompletionCount>0</CompletionCount>
+    <BonusCount>5</BonusCount>
+    <BonusAward>100</BonusAward>
+  </Goal>
+</ArrayOfGoal>
