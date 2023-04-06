@@ -1,6 +1,7 @@
 namespace FinalProjectTests {
   [TestClass]
-  public class UnitTest1 {
+  public class ActitivityTests {
+
     [TestMethod]
     public void TestMethod1() {
     }

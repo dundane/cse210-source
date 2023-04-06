@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeckLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Decks>
+    <Deck>
+      <Cards>
+        <Card>
+          <Keywords />
+          <Name>Basic Card One</Name>
+          <ConvertedManaCost>0</ConvertedManaCost>
+          <Types />
+          <Colors />
+          <ColorIdentitites />
+          <Legalities />
+        </Card>
+        <Card>
+          <Keywords />
+          <Name>Basic Card Two</Name>
+          <ConvertedManaCost>0</ConvertedManaCost>
+          <Types />
+          <Colors />
+          <ColorIdentitites />
+          <Legalities />
+        </Card>
+      </Cards>
+      <Commander>
+        <Keywords />
+        <Name>My Commander</Name>
+        <ConvertedManaCost>0</ConvertedManaCost>
+        <Types />
+        <Colors />
+        <ColorIdentitites />
+        <Legalities />
+      </Commander>
+      <ColorIdentity />
+    </Deck>
+  </Decks>
+</DeckLibrary>

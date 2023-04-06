@@ -39,7 +39,7 @@ namespace FinalProjectTests {
     [TestMethod]
     public void HasAMenuItemToFindADeck() {
       string menuResult = sut.FormatMenu();
-      Assert.IsTrue(menuResult.Contains("Find A Deck"));
+      Assert.IsTrue(menuResult.Contains("Select A Deck"));
     }
 
     [TestMethod]

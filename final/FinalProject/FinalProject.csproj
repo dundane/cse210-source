@@ -8,4 +8,21 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="FinalProjectTests\**" />
+    <EmbeddedResource Remove="FinalProjectTests\**" />
+    <None Remove="FinalProjectTests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="110.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\decklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

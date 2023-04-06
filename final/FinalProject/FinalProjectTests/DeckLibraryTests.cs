@@ -14,8 +14,17 @@ namespace FinalProjectTests {
     [TestMethod]
     public void DeckLibraryContainsAListOfDecks() {
 
+      List<Deck> deckList = sut.Decks;
+      Assert.IsNotNull(deckList);
 
+    }
 
+    [TestMethod]
+    public void DeckLibraryHasAnActiveDeck() {
+      Deck deck = new Deck();
+      sut.ActiveDeck = deck;
+      
+      Assert.AreEqual(deck, sut.ActiveDeck);
 
     }
   }

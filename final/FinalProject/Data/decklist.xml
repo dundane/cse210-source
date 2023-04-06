@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeckLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Decks>
+    <Deck>
+      <Cards>
+        <Card xsi:type="CommanderCard">
+          <Keywords />
+          <Name>Abnormal Endurance</Name>
+          <ManaCost>{1}{B}</ManaCost>
+          <ConvertedManaCost>2</ConvertedManaCost>
+          <TypeLine>Instant</TypeLine>
+          <Types>
+            <string>Instant</string>
+          </Types>
+          <OracleText>Until end of turn, target creature gets +2/+0 and gains "When this creature dies, return it to the battlefield tapped under its owner's control."</OracleText>
+          <Colors>
+            <string>B</string>
+          </Colors>
+          <ColorIdentitites>
+            <string>B</string>
+          </ColorIdentitites>
+          <Legalities>
+            <Commander>legal</Commander>
+          </Legalities>
+        </Card>
+        <Card xsi:type="CommanderCard">
+          <Keywords>
+            <string>Equip</string>
+          </Keywords>
+          <Name>Barbed Battlegear</Name>
+          <ManaCost>{3}</ManaCost>
+          <ConvertedManaCost>3</ConvertedManaCost>
+          <TypeLine>Artifact — Equipment</TypeLine>
+          <Types>
+            <string>Artifact</string>
+            <string>Equipment</string>
+          </Types>
+          <OracleText>Equipped creature gets +4/-1.
+Equip {2}</OracleText>
+          <Colors />
+          <ColorIdentitites />
+          <Legalities>
+            <Commander>legal</Commander>
+          </Legalities>
+        </Card>
+        <Card xsi:type="CommanderCard">
+          <Keywords />
+          <Name>Berserk</Name>
+          <ManaCost>{G}</ManaCost>
+          <ConvertedManaCost>1</ConvertedManaCost>
+          <TypeLine>Instant</TypeLine>
+          <Types>
+            <string>Instant</string>
+          </Types>
+          <OracleText>Cast this spell only before the combat damage step.
+Target creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn.</OracleText>
+          <Colors>
+            <string>G</string>
+          </Colors>
+          <ColorIdentitites>
+            <string>G</string>
+          </ColorIdentitites>
+          <Legalities>
+            <Commander>legal</Commander>
+          </Legalities>
+        </Card>
+        <Card xsi:type="CommanderCard">
+          <Keywords />
+          <Name>Blood Lust</Name>
+          <ManaCost>{1}{R}</ManaCost>
+          <ConvertedManaCost>2</ConvertedManaCost>
+          <TypeLine>Instant</TypeLine>
+          <Types>
+            <string>Instant</string>
+          </Types>
+          <OracleText>If target creature has toughness 5 or greater, it gets +4/-4 until end of turn. Otherwise, it gets +4/-X until end of turn, where X is its toughness minus 1.</OracleText>
+          <Colors>
+            <string>R</string>
+          </Colors>
+          <ColorIdentitites>
+            <string>R</string>
+          </ColorIdentitites>
+          <Legalities>
+            <Commander>legal</Commander>
+          </Legalities>
+        </Card>
+        <Card xsi:type="CommanderCard">
+          <Keywords>
+            <string>Connive</string>
+            <string>Deathtouch</string>
+          </Keywords>
+          <Name>Body Launderer</Name>
+          <ManaCost>{2}{B}{B}</ManaCost>
+          <ConvertedManaCost>4</ConvertedManaCost>
+          <TypeLine>Creature — Ogre Rogue</TypeLine>
+          <Types>
+            <string>Creature</string>
+            <string>Ogre</string>
+            <string>Rogue</string>
+          </Types>
+          <OracleText>Deathtouch
+Whenever another nontoken creature you control dies, Body Launderer connives.
+When Body Launderer dies, return another target non-Rogue creature card with equal or lesser power from your graveyard to the battlefield.</OracleText>
+          <Colors>
+            <string>B</string>
+          </Colors>
+          <ColorIdentitites>
+            <string>B</string>
+          </ColorIdentitites>
+          <Legalities>
+            <Commander>legal</Commander>
+          </Legalities>
+        </Card>
+        <Card xsi:type="CommanderCard">
+          <Keywords />
+          <Name>Choose Your Weapon</Name>
+          <ManaCost>{2}{G}</ManaCost>
+          <ConvertedManaCost>3</ConvertedManaCost>
+          <TypeLine>Instant</TypeLine>
+          <Types>
+            <string>Instant</string>
+          </Types>
+          <OracleText>Choose one —
+• Two-Weapon Fighting — Double target creature's power and toughness until end of turn.
+• Archery — This spell deals 5 damage to target creature with flying.</OracleText>
+          <Colors>
+            <string>G</string>
+          </Colors>
+          <ColorIdentitites>
+            <string>G</string>
+          </ColorIdentitites>
+          <Legalities>
+            <Commander>legal</Commander>
+          </Legalities>
+        </Card>
+      </Cards>
+      <Commander>
+        <Keywords>
+          <string>Flying</string>
+        </Keywords>
+        <Name>Ziatora, the Incinerator</Name>
+        <ManaCost>{3}{B}{R}{G}</ManaCost>
+        <ConvertedManaCost>6</ConvertedManaCost>
+        <TypeLine>Legendary Creature — Demon Dragon</TypeLine>
+        <Types>
+          <string>Legendary</string>
+          <string>Creature</string>
+          <string>Demon</string>
+          <string>Dragon</string>
+        </Types>
+        <OracleText>Flying
+At the beginning of your end step, you may sacrifice another creature. When you do, Ziatora, the Incinerator deals damage equal to that creature's power to any target and you create three Treasure tokens.</OracleText>
+        <Colors>
+          <string>B</string>
+          <string>G</string>
+          <string>R</string>
+        </Colors>
+        <ColorIdentitites>
+          <string>B</string>
+          <string>G</string>
+          <string>R</string>
+        </ColorIdentitites>
+        <Legalities>
+          <Commander>legal</Commander>
+        </Legalities>
+      </Commander>
+      <ColorIdentity>
+        <string>B</string>
+        <string>G</string>
+        <string>R</string>
+      </ColorIdentity>
+      <Name>Flingster</Name>
+    </Deck>
+  </Decks>
+  <ActiveDeck>
+    <Cards>
+      <Card xsi:type="CommanderCard">
+        <Keywords />
+        <Name>Abnormal Endurance</Name>
+        <ManaCost>{1}{B}</ManaCost>
+        <ConvertedManaCost>2</ConvertedManaCost>
+        <TypeLine>Instant</TypeLine>
+        <Types>
+          <string>Instant</string>
+        </Types>
+        <OracleText>Until end of turn, target creature gets +2/+0 and gains "When this creature dies, return it to the battlefield tapped under its owner's control."</OracleText>
+        <Colors>
+          <string>B</string>
+        </Colors>
+        <ColorIdentitites>
+          <string>B</string>
+        </ColorIdentitites>
+        <Legalities>
+          <Commander>legal</Commander>
+        </Legalities>
+      </Card>
+      <Card xsi:type="CommanderCard">
+        <Keywords>
+          <string>Equip</string>
+        </Keywords>
+        <Name>Barbed Battlegear</Name>
+        <ManaCost>{3}</ManaCost>
+        <ConvertedManaCost>3</ConvertedManaCost>
+        <TypeLine>Artifact — Equipment</TypeLine>
+        <Types>
+          <string>Artifact</string>
+          <string>Equipment</string>
+        </Types>
+        <OracleText>Equipped creature gets +4/-1.
+Equip {2}</OracleText>
+        <Colors />
+        <ColorIdentitites />
+        <Legalities>
+          <Commander>legal</Commander>
+        </Legalities>
+      </Card>
+      <Card xsi:type="CommanderCard">
+        <Keywords />
+        <Name>Berserk</Name>
+        <ManaCost>{G}</ManaCost>
+        <ConvertedManaCost>1</ConvertedManaCost>
+        <TypeLine>Instant</TypeLine>
+        <Types>
+          <string>Instant</string>
+        </Types>
+        <OracleText>Cast this spell only before the combat damage step.
+Target creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn.</OracleText>
+        <Colors>
+          <string>G</string>
+        </Colors>
+        <ColorIdentitites>
+          <string>G</string>
+        </ColorIdentitites>
+        <Legalities>
+          <Commander>legal</Commander>
+        </Legalities>
+      </Card>
+      <Card xsi:type="CommanderCard">
+        <Keywords />
+        <Name>Blood Lust</Name>
+        <ManaCost>{1}{R}</ManaCost>
+        <ConvertedManaCost>2</ConvertedManaCost>
+        <TypeLine>Instant</TypeLine>
+        <Types>
+          <string>Instant</string>
+        </Types>
+        <OracleText>If target creature has toughness 5 or greater, it gets +4/-4 until end of turn. Otherwise, it gets +4/-X until end of turn, where X is its toughness minus 1.</OracleText>
+        <Colors>
+          <string>R</string>
+        </Colors>
+        <ColorIdentitites>
+          <string>R</string>
+        </ColorIdentitites>
+        <Legalities>
+          <Commander>legal</Commander>
+        </Legalities>
+      </Card>
+      <Card xsi:type="CommanderCard">
+        <Keywords>
+          <string>Connive</string>
+          <string>Deathtouch</string>
+        </Keywords>
+        <Name>Body Launderer</Name>
+        <ManaCost>{2}{B}{B}</ManaCost>
+        <ConvertedManaCost>4</ConvertedManaCost>
+        <TypeLine>Creature — Ogre Rogue</TypeLine>
+        <Types>
+          <string>Creature</string>
+          <string>Ogre</string>
+          <string>Rogue</string>
+        </Types>
+        <OracleText>Deathtouch
+Whenever another nontoken creature you control dies, Body Launderer connives.
+When Body Launderer dies, return another target non-Rogue creature card with equal or lesser power from your graveyard to the battlefield.</OracleText>
+        <Colors>
+          <string>B</string>
+        </Colors>
+        <ColorIdentitites>
+          <string>B</string>
+        </ColorIdentitites>
+        <Legalities>
+          <Commander>legal</Commander>
+        </Legalities>
+      </Card>
+      <Card xsi:type="CommanderCard">
+        <Keywords />
+        <Name>Choose Your Weapon</Name>
+        <ManaCost>{2}{G}</ManaCost>
+        <ConvertedManaCost>3</ConvertedManaCost>
+        <TypeLine>Instant</TypeLine>
+        <Types>
+          <string>Instant</string>
+        </Types>
+        <OracleText>Choose one —
+• Two-Weapon Fighting — Double target creature's power and toughness until end of turn.
+• Archery — This spell deals 5 damage to target creature with flying.</OracleText>
+        <Colors>
+          <string>G</string>
+        </Colors>
+        <ColorIdentitites>
+          <string>G</string>
+        </ColorIdentitites>
+        <Legalities>
+          <Commander>legal</Commander>
+        </Legalities>
+      </Card>
+    </Cards>
+    <Commander>
+      <Keywords>
+        <string>Flying</string>
+      </Keywords>
+      <Name>Ziatora, the Incinerator</Name>
+      <ManaCost>{3}{B}{R}{G}</ManaCost>
+      <ConvertedManaCost>6</ConvertedManaCost>
+      <TypeLine>Legendary Creature — Demon Dragon</TypeLine>
+      <Types>
+        <string>Legendary</string>
+        <string>Creature</string>
+        <string>Demon</string>
+        <string>Dragon</string>
+      </Types>
+      <OracleText>Flying
+At the beginning of your end step, you may sacrifice another creature. When you do, Ziatora, the Incinerator deals damage equal to that creature's power to any target and you create three Treasure tokens.</OracleText>
+      <Colors>
+        <string>B</string>
+        <string>G</string>
+        <string>R</string>
+      </Colors>
+      <ColorIdentitites>
+        <string>B</string>
+        <string>G</string>
+        <string>R</string>
+      </ColorIdentitites>
+      <Legalities>
+        <Commander>legal</Commander>
+      </Legalities>
+    </Commander>
+    <ColorIdentity>
+      <string>B</string>
+      <string>G</string>
+      <string>R</string>
+    </ColorIdentity>
+    <Name>Flingster</Name>
+  </ActiveDeck>
+</DeckLibrary>
